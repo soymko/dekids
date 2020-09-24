@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+}
+
+
+body {
+    background: purple;
+    color: white;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    
+}
+
+h1 strong{
+    color: #99cc00;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+    
+}
+/*
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;   
+    align-items: center; 
+}
+
+.hijo{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.aplicar{
+    height: 500px;
+    background: white;
+    display: flex;
+    color: black;
+    
+}
+
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.aplicar-detalles img{
+    height: 90%;
+}
+
+.container1{
+    height: 80%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+
+.container2{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(30, 1, 63);
+    padding: 20px;
+    
+}
+
+.col1{
+  
+   
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    
+}
+
+.col2{
+   
+    widows: 200px;
+    padding: 0px 20px;
+    
+}
+
+.col2 p a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.col3 {
+
+    width: 300px;
+    padding: 0px 20px;
+    
+}
+
+.row1-contacto{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.row1-contacto img{
+    height: 25px;
+    width: 35px;
+}
+
+.col3 p{
+    margin-left: 10px;
+}
+
+.row2-contacto{
+    display: flex;
+    align-items: center;
+}
+
+.row2-contacto img{
+    height: 35px;
+    width: 35px;
+}
+
+.row1-redes img{
+    width: 35px;
+    height: 35px;
+}
+
+.container1 h2{
+    margin: 10px 0px;
+}
+
+
+
+.header{
+    background: rgb(30, 1, 63);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+footer{
+    
+    background: #99cc00;
+
+}
+
+
+
+.header li{
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.principal {
+    background: rgb(34, 0, 73);
+    background-image: url('img/fondoEspacio.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+   
+}
+
+.principal img{
+    width: 300px;
+}
+
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: #99cc00;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+.row-contacto{
+    display: flex;
+    margin-top: 10px;
+}
+
+.row-contacto p{
+    margin-left: 10px;
+}
+
+.somos {
+    background: darkcyan;
+    text-align: right;
+    padding: 50px 100px;
+    
+}
+
+.somos {
+    background: rgb(29, 3, 91);
+    text-align: center;
+    padding: 50px;
+   
+    font-size: 20px;  
+    
+}
+
+.somos h2{
+    color: #99cc00;
+    margin-bottom: 10px;
+}
+
+.somos p{
+    margin-bottom: 20px;
+}
+
+.principal_3 {
+    background: rgb(238, 131, 0);
+    text-align: left;
+    padding: 25px 50px 200px 100px;
+}
+
+
+
+
+
+
